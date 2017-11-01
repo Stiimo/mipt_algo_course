@@ -8,8 +8,8 @@ TBD
 ## Разбор задач
 1. Контест на ввод/вывод, условия, циклы. TBD
 2. Контест по массивам. TBD
-3. [a relative link](mipt_python3_course/solutions/contest3.ipynb)Полусеместровая контрольная
-4. <a href="mipt_python3_course/solutions/contest4.ipynb">Контест по сортировкам</a>
+3. [Полусеместровая контрольная](mipt_python3_course/solutions/contest3.ipynb)
+4. [Контест по сортировкам](mipt_python3_course/solutions/contest4.ipynb)
 ​
 ## Полезные ссылки
 1. <a href="https://docs.python.org/3/">Документация по Python3</a> - тут есть вся информация о встроенных функциях и стандартных библиотеках. Кроме этого там можно найти хороший туториал.
