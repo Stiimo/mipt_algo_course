@@ -11,12 +11,14 @@
 3. [Полусеместровая контрольная](solutions/contest3.ipynb)
 4. [Контест по сортировкам](solutions/contest4.ipynb)
 ​
-## Полезные ссылки
+## Полезные ссылки и теория
 1. <a href="https://docs.python.org/3/">Документация по Python3</a> - тут есть вся информация о встроенных функциях и стандартных библиотеках. Кроме этого там можно найти хороший туториал.
 2. <a href="https://www.python.org/dev/peps/pep-0008/">PEP8</a> - стандарт по написанию кода.
+3. [Теория по алгоритмам поиска](theory/search.ipynb)
 ​
 ## Контакты со мной
 Абрамов Максим Петрович<br>
 +7(929)574-91-51<br>
-<a href="mailto:maksim.abramov@phystech.edu">maksim.abramov@phystech.edu</a><br>
-<a href="https://vk.com/stiimo">https://vk.com/stiimo</a>
+<a href="mailto:mk.com/stiimo</a>
+aksim.abramov@phystech.edu">maksim.abramov@phystech.edu</a><br>
+<a href="https://vk.com/stiimo">https://v
