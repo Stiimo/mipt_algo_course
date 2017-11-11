@@ -21,4 +21,4 @@
 +7(929)574-91-51<br>
 <a href="mailto:mk.com/stiimo</a>
 aksim.abramov@phystech.edu">maksim.abramov@phystech.edu</a><br>
-<a href="https://vk.com/stiimo">https://v
+<a href="https://vk.com/stiimo">https://vk.com/stiimo
