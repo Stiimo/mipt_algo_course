@@ -20,10 +20,10 @@
 5. [Теория по динамическому программированию](theory/dp.ipynb). Так же почитать можно [тут](https://neerc.ifmo.ru/wiki/index.php?title=Динамическое_программирование).
 6. [Расстояние Левенштейна](https://ru.wikipedia.org/wiki/Расстояние_Левенштейна)
 7. [Задача о рюкзаке](http://neerc.ifmo.ru/wiki/index.php?title=Задача_о_рюкзаке). Смотрите классический вариант задачи в самом начале статьи, реализацию методом ДП. 
+8. [Стек и его применение](theory/stack.ipynb)
 
 ## Контакты со мной
 Абрамов Максим Петрович<br>
 +7(929)574-91-51<br>
-<a href="mailto:mk.com/stiimo</a>
-aksim.abramov@phystech.edu">maksim.abramov@phystech.edu</a><br>
-<a href="https://vk.com/stiimo">https://vk.com/stiimo
+<a href="mailto:maksim.abramov@phystech.edu">maksim.abramov@phystech.edu</a><br>
+<a href="https://vk.com/stiimo">https://vk.com/stiimo</a>
