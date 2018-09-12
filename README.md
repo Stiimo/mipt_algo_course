@@ -10,7 +10,7 @@
 `sudo apt install g++`
 
 #### Windows
-[Компилятор MinGW](https://osdn.net/projects/mingw/releases/)
+[Компилятор MinGW](https://osdn.net/projects/mingw/releases/)<br>
 [CygWin](https://cygwin.com/install.html) позволит вам использовать gcc(g++) в Windows. 
 
 #### Mac OS
@@ -18,13 +18,13 @@
 
 ### IDE (среда разработки)
 
-[Visual Studio Code](https://code.visualstudio.com/#alt-downloads)
-[Xcode](https://developer.apple.com/xcode/) только дял Mac OS, вроде платная.
-[Clion](https://www.jetbrains.com/clion/download/#section=linux) является платной IDE, но можно получить [студенческую лицензию](https://jetbrains.ru/students/classroom-licenses/free-classroom-licenses/) от JetBrains.  
+[Visual Studio Code](https://code.visualstudio.com/#alt-downloads)<br>
+[Xcode](https://developer.apple.com/xcode/) только для Mac OS, вроде платная.<br>
+[Clion](https://www.jetbrains.com/clion/download/#section=linux) является платной IDE, но можно получить [студенческую лицензию](https://jetbrains.ru/students/classroom-licenses/free-classroom-licenses/) от JetBrains.<br> 
 [CodeBlocks](http://www.codeblocks.org/downloads/binaries)
 
 ### Решение 2-в-1
-В личном кабинете на [mipt.ru](https://mipt.ru) есть инструкция о том, как получть лицензионное ПО от Microsoft. В его число входит Visual Studio со своим компилятором. [Visual Studio](https://visualstudio.microsoft.com/vs/) работает на Windiows и Mac OS.
+В личном кабинете на [mipt.ru](https://mipt.ru) есть инструкция о том, как получть лицензионное ПО от Microsoft. В его число входит Visual Studio со своим компилятором. [Visual Studio](https://visualstudio.microsoft.com/vs/) работает на Windows и Mac OS.
 
 ## Текущий рейтинг
 TBD
