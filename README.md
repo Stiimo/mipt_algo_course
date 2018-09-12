@@ -11,6 +11,7 @@
 
 #### Windows
 [Компилятор MinGW](https://osdn.net/projects/mingw/releases/)
+[CygWin](https://cygwin.com/install.html) позволит вам использовать gcc(g++) в Windows. 
 
 #### Mac OS
 Возможно, родным компилятором на Mac OS является clang(clang++), но можно поставить gcc(g++).
