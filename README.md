@@ -32,7 +32,7 @@ TBD
 ## Полезные ссылки и теория
 1. [E-maxx](http://e-maxx.ru/algo/) - отличный онлайн сборник алгоритмов.
 2. [Исчерпывающий список книг для знакомства с C++](https://tproger.ru/books/cpp-books-beginners/) - особенно обратил бы внимение на 1 книгу. Быстро пролистал, вроде на норм, но на английском.
-3. (C++ code style)[theory/cpp_code_style.md].
+3. [C++ code style](theory/cpp_code_style.md).
 ​
 ## Разбор задач
 TBD​
