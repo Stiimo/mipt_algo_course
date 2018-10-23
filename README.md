@@ -35,7 +35,7 @@ TBD
 3. [C++ code style](theory/cpp_code_style.md).
 ​
 ## Разбор задач
-TBD​
+1. [Основы языка C++](solutions/lab4.md)
 
 ## Контакты со мной
 Абрамов Максим Петрович<br>
