@@ -1,1 +1,0 @@
-Some text with tex_equaiton: $f(x) = x^2$
