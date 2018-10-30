@@ -384,14 +384,137 @@ int main() {
 ```
 
 ## Упражнение №15
+Задание с очень запутанным условием. Как я понял, из заданного множества чисел надо выбрать подмножество чисел, дающих максимальную нечетную сумму. ПОдмножество должно быть минимально. Для решения мы будем брать все четные числа, кроме 0. В итоге получим четную сумму. Для нечетности суммы надо нечетное кол-во нечетных чисел. В сумму мы будем добавлять нечетные числа, которые больше минимального. Если, дойдя до конца последовательности, мы добавили в сумму четное кол-во нечетных чисел, то добавляем минимальное.
 
 ```cpp
+#include <fstream>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+int main() {
+    srand(time(NULL));
+    int n = 3 + rand() % 1001;
+    ofstream fout("out.txt");
+    int min_odd = 1001;
+    int odd_count = 0;
+    for (int i = 0; i < n; i++) {
+        int x = rand() % 1001;
+        if (x == 0) {
+            continue;
+        }
+        if (x % 2 == 0) {
+            fout << x << ' ';
+        } else if (x < min_odd) {
+            if (odd_count > 0) {
+                fout << min_odd << ' ';
+            }
+            min_odd = x;
+            odd_count++;
+        } else {
+            fout << x << ' ';
+        }
+    }
+    if (odd_count % 2) {
+        fout << min_odd;
+    }
+
+    fout.close();
+    return 0;
+}
 ```
 
 ## Упражнение №16
+Т.к. мы не можем обрабатывать положительные числа сразу, нам придется их где-нибудь хранить. В связи с тем, что их кол-во может быть большим, просто будем их выводить во временный файл. Потом просто оттуда перепечатаем в выходной. Отрицательные числа печатаем сразу. Т.к. про нули ничег оне сказано, я просто запоминал их кол-во и печатал м/у положительными и отрицательными.
+
 ```cpp
+#include <fstream>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+int main() {
+    srand(time(NULL));
+    int n = 1000 + rand() % 1001;
+    ofstream fout("out.txt");
+    ofstream tmp("tmp.txt");
+    int m = 0;
+    int z = 0;
+    for (int i = 0; i < n; i++) {
+        int x = rand() % 1001 - 500;
+        if (x == 0) {
+            z++;
+        } else if (x > 0) {
+            tmp << x << ' ';
+            m++;
+        } else {
+            fout << x << ' ';
+        }
+    }
+    tmp.close();
+    for (int i = 0; i < z; i++) {
+        fout << "0 ";
+    }
+    ifstream fin("tmp.txt");
+    for (int i = 0; i < m; i++) {
+        int x;
+        fin >> x;
+        fout << x << ' ';
+    }
+    fin.close();
+    fout.close();
+    return 0;
+}
 ```
 
 ## Упражнение №17
+Для решения задачи нам понадобится формула его площади: полупроизведение основания на высоту. Далее мы будем одновременно решать задачу поиска макс. треугольника для нижней и верхней полуплоскости отдельно. В каждой полуплоскости мы находим точку, максимально отдаленную от оси Oy. И находим две точки на оси Ox, лежащие на максимальном расстоянии друг от друга. Таким образом мы надем максимальные треугольники в каждой полуплоскости, удовлетворяющие условиям задачи. Для ответа необходимо выбрать наибольший из двух треугольников. 
+
 ```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    int pos_h = 0, pos_min = 0, pos_max = 0;
+    int neg_h = 0, neg_min = 0, neg_max = 0;
+    for (int i = 0; i < n; i++) {
+        int x, y;
+        cin >> x >> y;
+        if (y == 0) {
+            continue;
+        }
+        if (y > 0) {
+            if (abs(x) > pos_h) {
+                pos_h = abs(x);
+            } else if (x == 0) {
+                if (y < pos_min || pos_min == 0) {
+                    pos_min = y;
+                }
+                if (y > pos_max || pos_max == 0) {
+                    pos_max = y;
+                }
+            }
+        } else {
+            if (abs(x) > neg_h) {
+                neg_h = abs(x);
+            } else if (x == 0) {
+                if (y < neg_min || neg_min == 0) {
+                    neg_min = y;
+                }
+                if (y > neg_max || neg_max == 0) {
+                    neg_max = y;
+                }
+            }
+        }
+    }
+    cout << std::max(pos_h * (pos_max - pos_min) / 2.0, 
+                     neg_h * (neg_max - neg_min) / 2.0) << endl;
+    return 0;
+}
 ```
