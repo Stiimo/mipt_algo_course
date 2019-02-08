@@ -42,7 +42,7 @@
 +	[843](Results_843.ipynb)
 
 ## Оформление кода
-[C++ code style](theory/cpp_code_style.md).
+[C++ code style](theory/cpp_code_style.md).<br>
 [PEP8](https://www.python.org/dev/peps/pep-0008/) - общепринятый стандарт по написанию кода на языке Python. [Короткая версия](PEP8_short.pdf).
 
 ## Полезные ссылки и теория
@@ -58,7 +58,6 @@
 4. [Массивы](solutions/lab7.md)
 5. [Контрольная работа №1](solutions/cw1.md)
 6. [Матрицы](solutions/lab9.md)
-7. [Квадратичные сортировки](solutions/lab11.md)
 8. [Рекурсия](solutions/lab12.md)
 
 ## Контакты со мной
