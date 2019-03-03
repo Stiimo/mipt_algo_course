@@ -60,7 +60,8 @@
 4. [Массивы](solutions/lab7.md)
 5. [Контрольная работа №1](solutions/cw1.md)
 6. [Матрицы](solutions/lab9.md)
-8. [Рекурсия](solutions/lab12.md)
+7. [Рекурсия](solutions/lab12.md)
+8. [Работа со строками, Z-функция и КМП](solutions/lab20.ipynb)
 
 ## Контакты со мной
 Абрамов Максим Петрович<br>
