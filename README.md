@@ -62,6 +62,7 @@
 6. [Матрицы](solutions/lab9.md)
 7. [Рекурсия](solutions/lab12.md)
 8. [Работа со строками, Z-функция и КМП](solutions/lab20.ipynb)
+9. [Словари и множества в Python](solutions/lab22.ipynb)
 
 ## Контакты со мной
 Абрамов Максим Петрович<br>
