@@ -59,12 +59,13 @@
 2. [Анализ числовых последовательностей](solutions/lab5.md)
 3. [Арифметика с плавающей запятой](solutions/lab6.ipynb)
 4. [Массивы](solutions/lab7.md)
-5. [Контрольная работа №1](solutions/cw1.md)
+5. [Контрольная работа №1, первый семестр](solutions/lab8.md)
 6. [Матрицы](solutions/lab9.md)
 7. [Рекурсия](solutions/lab12.md)
 8. [Работа со строками, Z-функция и КМП](solutions/lab20.ipynb)
 9. [Словари и множества в Python](solutions/lab22.ipynb)
 10. [Хеширование и хеш-таблицы](solutions/lab23.ipynb)
+11. [Контрольная работа №1, второй семестр](solutions/lab24.ipynb)
 
 ## Контакты со мной
 Абрамов Максим Петрович<br>
