@@ -4,4 +4,5 @@
 
 1. [Хранение графов](graphs/storage.ipynb)
 2. [Обход графа: поиск в глубину](graphs/dfs.ipynb)
-3. [Кратчайшие расстояния во взвешенном графе](graph/shortest_paths.ipynb)
+4. [Кратчайшие пути в невзвешенных графах](graphs/bfs.pdf)
+3. [Кратчайшие пути во взвешенных графах](graph/shortest_paths.ipynb)
