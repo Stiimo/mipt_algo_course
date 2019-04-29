@@ -54,6 +54,7 @@
 5. [Теория по динамическому программированию](theory/dp.ipynb). Так же почитать можно [тут](https://neerc.ifmo.ru/wiki/index.php?title=Динамическое_программирование).
 6. [Хеширование и хеш-таблицы](theory/Hash.pdf).
 7. [Алгоритмы на графы](theory/graphs.md).
+8. [Куча](theory/heap.ipynb).
 ​
 ## Разбор задач
 1. [Основы языка C++](solutions/lab4.md)
