@@ -39,7 +39,7 @@
     2. [Решето Эратосфена](theory/sieve_of_eratosthenes.pdf)
 2. Сортировки и поиск
     1. [Квадратичные сотировки](theory/quadratic_sortings.pdf)
-    2. Быстрые сортировки
+    2. [Сортировки с квазилинейной сложностью](theory/quasilinear_sortings.pdf)
     3. [Сортировки для особых случаев](theory/spec_case_sortings.pdf)
     4. Поиск элементов в массиве
 3. Алгоритмы на строки
