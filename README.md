@@ -24,7 +24,7 @@
 Можно получить [студенческую лицензию](https://jetbrains.ru/students/classroom-licenses/free-classroom-licenses/) от JetBrains.<br>
 [Spyder](https://www.spyder-ide.org/)<br>
 [Visual Studio](https://visualstudio.microsoft.com/vs/).
-В личном кабинете на [mipt.ru](https://mipt.ru) есть инструкция о том, как получть лицензионное ПО от Microsoft.
+В личном кабинете на [mipt.ru](https://mipt.ru) есть инструкция о том, как получить лицензионное ПО от Microsoft.
 Обычно VS используется для программирования на C++ и C#, но он поддерживает и Python (возможно потребуется установка дополнительных модулей). 
 
 ## Полезные ссылки
@@ -43,7 +43,9 @@
     3. [Сортировки для особых случаев](theory/spec_case_sortings.pdf)
     4. [Поиск элементов в массиве](theory/searches.pdf)
 3. Алгоритмы на строки
-4. Динамическое программирование
+    1. [Префикс-функция](https://e-maxx.ru/algo/prefix_function)
+    2. [Z-функция](https://e-maxx.ru/algo/z_function)
+4. [Динамическое программирование](theory/dp.ipynb). Так же почитать можно [тут](https://neerc.ifmo.ru/wiki/index.php?title=Динамическое_программирование).
 5. Графы
 6. Структуры данных
  
