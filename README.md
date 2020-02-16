@@ -48,7 +48,7 @@
     1. [Префикс-функция](https://e-maxx.ru/algo/prefix_function)
     2. [Z-функция](https://e-maxx.ru/algo/z_function)
 4. [Динамическое программирование](theory/dp.ipynb). Так же почитать можно [тут](https://neerc.ifmo.ru/wiki/index.php?title=Динамическое_программирование).
-5. Хеширование
+5. Хеширование: [RU](theory/hashing_ru.pdf), [EN](theory/hashing_en.pdf)
 6. Графы
     1. Хранение графов
     2. Обходы
