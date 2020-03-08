@@ -64,5 +64,6 @@
 ## Контакты со мной
 Абрамов Максим Петрович<br>
 +7(929)574-91-51<br>
+Telegram: @stiimo<br>
 <a href="mailto:maksim.abramov@phystech.edu">maksim.abramov@phystech.edu</a><br>
-<a href="https://vk.com/stiimo">https://vk.com/stiimo</a>
+<a href="https://vk.com/stiimo">https://vk.com/stiimo</a><br>
