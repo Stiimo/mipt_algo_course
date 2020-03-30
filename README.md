@@ -50,8 +50,8 @@
 4. [Динамическое программирование](theory/dp.ipynb). Так же почитать можно [тут](https://neerc.ifmo.ru/wiki/index.php?title=Динамическое_программирование).
 5. Хеширование: [RU](theory/hashing_ru.pdf), [EN](theory/hashing_en.pdf)
 6. Графы
-    1. Хранение графов
-    2. Обходы
+    1. Хранение графов: [RU](theory/graph_storage_ru.pdf)
+    2. Обходы: [RU](theory/graph_traverse_ru.pdf)
     3. Пути минимального веса
     4. Остовные деревья
     5. Асимптотически сложные задачи
