@@ -52,7 +52,7 @@
 6. Графы
     1. Хранение графов: [RU](theory/graph_storage_ru.pdf)
     2. Обходы: [RU](theory/graph_traverse_ru.pdf)
-    3. Пути минимального веса
+    3. Пути минимального веса [RU](theory/graph_shortest_ru.pdf)
     4. Остовные деревья
     5. Асимптотически сложные задачи
 7. Теория игр
